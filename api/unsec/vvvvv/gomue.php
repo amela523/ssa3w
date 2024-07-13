@@ -64,7 +64,7 @@ class aWAF {
 							"OR '1", 
 							'0x3c62723e3c62723e3c62723e',
 							'0x3c696d67207372633d22',
-							'+#1q%0AuNiOn all#qa%0A#%0AsEleCt',
+							'+1q%0AuNiOn allqa%0A%0AsEleCt',
 							'unhex(hex(Concat(',
 							'Table_schema,0x3e,',
 							'0x00', // \0  [This is a zero, not the letter O]
