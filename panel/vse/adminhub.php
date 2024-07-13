@@ -19,7 +19,7 @@ header("X-XSS-Protection: 1; mode=block");
         </div>
         <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
           <ol class="breadcrumb">
-            <li><a href="#"><?php echo $sitename; ?></a></li>
+            <li><a href=""><?php echo $sitename; ?></a></li>
             <li class="active"><?php echo $page; ?></li>
           </ol>
         </div>
@@ -107,11 +107,11 @@ header("X-XSS-Protection: 1; mode=block");
       </div>
 <script>
 function start() {
-			var host=$('#host').val();
-			var port=$('#port').val();
-			var time=$('#time').val();
-			var method=$('#method').val();
-			var servers=$('#servers').val();
+			var host=$('host').val();
+			var port=$('port').val();
+			var time=$('time').val();
+			var method=$('method').val();
+			var servers=$('servers').val();
 			document.getElementById("image").style.display="inline"; 
 			document.getElementById("div").style.display="none"; 
 			var xmlhttp;

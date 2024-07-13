@@ -92,7 +92,7 @@ DataTable.ext.renderer.pageButton.bootstrap = function ( settings, host, idx, bu
 
 				switch ( button ) {
 					case 'ellipsis':
-						btnDisplay = '&#x2026;';
+						btnDisplay = '&x2026;';
 						btnClass = 'disabled';
 						break;
 
@@ -135,7 +135,7 @@ DataTable.ext.renderer.pageButton.bootstrap = function ( settings, host, idx, bu
 								null
 						} )
 						.append( $('<a>', {
-								'href': '#',
+								'href': '',
 								'aria-controls': settings.sTableId,
 								'aria-label': aria[ button ],
 								'data-dt-idx': counter,

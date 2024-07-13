@@ -134,8 +134,8 @@
       if ($optgroup.length > 0){
         var optgroupLabel = $optgroup.attr('label'),
             optgroupId = that.sanitize(optgroupLabel),
-            $selectableOptgroup = that.$selectableUl.find('#optgroup-selectable-'+optgroupId),
-            $selectionOptgroup = that.$selectionUl.find('#optgroup-selection-'+optgroupId);
+            $selectableOptgroup = that.$selectableUl.find('optgroup-selectable-'+optgroupId),
+            $selectionOptgroup = that.$selectionUl.find('optgroup-selection-'+optgroupId);
 
         if ($selectableOptgroup.length === 0){
           var optgroupContainerTpl = '<li class="ms-optgroup-container"></li>',
@@ -245,7 +245,7 @@
           $nextElem = null,
           elemHeight = $elems.first().outerHeight(),
           containerHeight = $list.height(),
-          containerSelector = '#'+this.$container.prop('id');
+          containerSelector = ''+this.$container.prop('id');
 
       $elems.removeClass('ms-hover');
       if (direction === 1){ // DOWN
@@ -339,7 +339,7 @@
     },
 
     'destroy' : function(){
-      $("#ms-"+this.$element.attr("id")).remove();
+      $("ms-"+this.$element.attr("id")).remove();
       this.$element.css('position', '').css('left', '')
       this.$element.removeData('multiselect');
     },
@@ -350,13 +350,13 @@
       var that = this,
           ms = this.$element,
           msIds = $.map(value, function(val){ return(that.sanitize(val)); }),
-          selectables = this.$selectableUl.find('#' + msIds.join('-selectable, #')+'-selectable').filter(':not(.'+that.options.disabledClass+')'),
-          selections = this.$selectionUl.find('#' + msIds.join('-selection, #') + '-selection').filter(':not(.'+that.options.disabledClass+')'),
+          selectables = this.$selectableUl.find('' + msIds.join('-selectable, ')+'-selectable').filter(':not(.'+that.options.disabledClass+')'),
+          selections = this.$selectionUl.find('' + msIds.join('-selection, ') + '-selection').filter(':not(.'+that.options.disabledClass+')'),
           options = ms.find('option:not(:disabled)').filter(function(){ return($.inArray(this.value, value) > -1); });
 
       if (method === 'init'){
-        selectables = this.$selectableUl.find('#' + msIds.join('-selectable, #')+'-selectable'),
-        selections = this.$selectionUl.find('#' + msIds.join('-selection, #') + '-selection');
+        selectables = this.$selectableUl.find('' + msIds.join('-selectable, ')+'-selectable'),
+        selections = this.$selectionUl.find('' + msIds.join('-selection, ') + '-selection');
       }
 
       if (selectables.length > 0){
@@ -406,8 +406,8 @@
       var that = this,
           ms = this.$element,
           msIds = $.map(value, function(val){ return(that.sanitize(val)); }),
-          selectables = this.$selectableUl.find('#' + msIds.join('-selectable, #')+'-selectable'),
-          selections = this.$selectionUl.find('#' + msIds.join('-selection, #')+'-selection').filter('.ms-selected').filter(':not(.'+that.options.disabledClass+')'),
+          selectables = this.$selectableUl.find('' + msIds.join('-selectable, ')+'-selectable'),
+          selections = this.$selectionUl.find('' + msIds.join('-selection, ')+'-selection').filter('.ms-selected').filter(':not(.'+that.options.disabledClass+')'),
           options = ms.find('option').filter(function(){ return($.inArray(this.value, value) > -1); });
 
       if (selections.length > 0){

@@ -162,7 +162,7 @@ header("X-XSS-Protection: 1; mode=block");
 												<div class="form-group">
 													<div class="custom-control custom-checkbox">
 														<input type="checkbox" class="custom-control-input" id="agreement" disabled="" checked="">
-														<label class="custom-control-label" for="agreement">I agree with <a href="javascript:void(0)" class="text-primary" data-toggle="modal" data-target="#tos-modal">Terms of Service</a></label>
+														<label class="custom-control-label" for="agreement">I agree with <a href="javascript:void(0)" class="text-primary" data-toggle="modal" data-target="tos-modal">Terms of Service</a></label>
 													</div>
 												</div>
 											</div>-->

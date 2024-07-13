@@ -90,9 +90,9 @@ header("X-XSS-Protection: 1; mode=block");
       <!--/.row -->
 	  <script>
     $(document).ready(function(){
-      $('#myTable').DataTable();
+      $('myTable').DataTable();
       $(document).ready(function() {
-        var table = $('#example').DataTable({
+        var table = $('example').DataTable({
           "columnDefs": [
           { "visible": false, "targets": 2 }
           ],
@@ -116,7 +116,7 @@ header("X-XSS-Protection: 1; mode=block");
         } );
 
     // Order by the grouping
-    $('#example tbody').on( 'click', 'tr.group', function () {
+    $('example tbody').on( 'click', 'tr.group', function () {
       var currentOrder = table.order()[0];
       if ( currentOrder[0] === 2 && currentOrder[1] === 'asc' ) {
         table.order( [ 2, 'desc' ] ).draw();

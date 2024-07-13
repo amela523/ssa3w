@@ -53,7 +53,7 @@ header("X-XSS-Protection: 1; mode=block");
 						</b>
 						<b class="text-center" style="padding-top: 5px;">SCAPY.CLUB</b>
 					</div>
-					<a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+					<a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
 				</div>
 				<div class="navbar-collapse collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav float-left mr-auto ml-3 pl-1"></ul>
@@ -117,7 +117,7 @@ header("X-XSS-Protection: 1; mode=block");
 							</a>
 						</li>
 						<li class="sidebar-item">
-							<a class="sidebar-link sidebar-link" href="javascript:void(0)" data-toggle="modal" data-target="#tos-modal" aria-expanded="false">
+							<a class="sidebar-link sidebar-link" href="javascript:void(0)" data-toggle="modal" data-target="tos-modal" aria-expanded="false">
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text feather-icon"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
 								<span class="hide-menu">TOS</span>
 							</a>

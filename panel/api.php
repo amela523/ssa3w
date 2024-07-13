@@ -144,7 +144,7 @@ header("X-XSS-Protection: 1; mode=block");
   </div>
 			<script>
 			function redeemCode() {
-				var code = $('#code').val();
+				var code = $('code').val();
 				document.getElementById("icon").style.display="inline"; 
 				var xmlhttp;
 				if (window.XMLHttpRequest) {

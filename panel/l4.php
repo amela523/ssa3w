@@ -72,15 +72,15 @@ header("X-XSS-Protection: 1; mode=block");
 											
 										    function updateTime()
 											{
-												var time=$('#time').val();
+												var time=$('time').val();
 												const finish = (time)
 												document.getElementById('current_time').textContent=finish;
 											}
 											</script>
 													<script>
 													function fuckingl7(){
-														const method=$('#method').val();
-														const startt = encodeURIComponent($('#method option[value="'+method+'"]').parent().data("tag"));
+														const method=$('method').val();
+														const startt = encodeURIComponent($('method option[value="'+method+'"]').parent().data("tag"));
 														if(startt == "startl7"){
 															document.getElementById("emulationdiv").style.display = "block";
 															document.getElementById("l4").style.display = "none";
@@ -148,7 +148,7 @@ header("X-XSS-Protection: 1; mode=block");
 													if ($status == 1){
 													
 														echo '
-												<button class="btn btn-outline btn-warning" data-toggle="modal" data-target="#manageapi" type="button"><i class="fa fa-wrench"></i> Manage API</button>';
+												<button class="btn btn-outline btn-warning" data-toggle="modal" data-target="manageapi" type="button"><i class="fa fa-wrench"></i> Manage API</button>';
 													
 													}
 												?>
@@ -175,7 +175,7 @@ header("X-XSS-Protection: 1; mode=block");
 											
 		function updateTime()
 		{
-		var time=$('#time').val();
+		var time=$('time').val();
 		const finish = (time)
 		document.getElementById('current_time').textContent=finish;
 		}
@@ -220,18 +220,18 @@ header("X-XSS-Protection: 1; mode=block");
 		                btn.disabled = true;
 		                
 		                
-			            const host=encodeURIComponent($('#host').val());
-						const port=encodeURIComponent($('#port').val());
-						const target=encodeURIComponent($('#target').val());
-			            const time=$('#time').val();
-			            const postdata=encodeURIComponent($('#postdata').val()) || "/";
-			            const cookie=encodeURIComponent($('#cookie').val()) || "https://google.com/";
-			            const referer=encodeURIComponent($('#referer').val()) || "false";
-			            const mode=encodeURIComponent($('#mode').val());
-						const emulation=encodeURIComponent($('#emulation').val());
-			            const method=$('#method').val();
-						const startt = encodeURIComponent($('#method option[value="'+method+'"]').parent().data("tag"));
-			            const rmethod=$('#rmethod').val() || "GET";
+			            const host=encodeURIComponent($('host').val());
+						const port=encodeURIComponent($('port').val());
+						const target=encodeURIComponent($('target').val());
+			            const time=$('time').val();
+			            const postdata=encodeURIComponent($('postdata').val()) || "/";
+			            const cookie=encodeURIComponent($('cookie').val()) || "https://google.com/";
+			            const referer=encodeURIComponent($('referer').val()) || "false";
+			            const mode=encodeURIComponent($('mode').val());
+						const emulation=encodeURIComponent($('emulation').val());
+			            const method=$('method').val();
+						const startt = encodeURIComponent($('method option[value="'+method+'"]').parent().data("tag"));
+			            const rmethod=$('rmethod').val() || "GET";
 			            document.getElementById("div").style.display="none";			
 			
 			               var xmlhttp;

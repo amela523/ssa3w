@@ -8,9 +8,9 @@
 .jvectormap-tip {
     position: absolute;
     display: none;
-    border: solid 1px #4F5467;
+    border: solid 1px 4F5467;
     border-radius: 2px;
-    background: #4F5467;
+    background: 4F5467;
     color: white;
     font-family: sans-serif, Verdana;
     font-size: smaller;
@@ -21,7 +21,7 @@
     position: absolute;
     left: 10px;
     border-radius: 2px;
-    background: #4F5467;
+    background: 4F5467;
     padding: 5px;
     color: white;
     cursor: pointer;

@@ -31,7 +31,7 @@ header("X-XSS-Protection: 1; mode=block");
         </div>
         <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
           <ol class="breadcrumb">
-            <li><a href="#"><?php echo $sitename; ?></a></li>
+            <li><a href=""><?php echo $sitename; ?></a></li>
             <li class="active"><?php echo $page; ?></li>
           </ol>
         </div>

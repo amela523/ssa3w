@@ -135,7 +135,7 @@ header("X-XSS-Protection: 1; mode=block");
 								$sales = $odb->query("SELECT COUNT(*) FROM `payments` WHERE `plan` = '$id'")->fetchColumn(0);
 								$people = $odb->query("SELECT COUNT(*) FROM `users` WHERE `membership` = '$id'")->fetchColumn(0);
 								echo '<tr">
-										<td style="font-size: 12px;"><a class="link-effect" href="#" data-toggle="modal" data-target="#modal-fadein'. $id .'" >'.htmlspecialchars($planName).'</a></td>
+										<td style="font-size: 12px;"><a class="link-effect" href="" data-toggle="modal" data-target="modal-fadein'. $id .'" >'.htmlspecialchars($planName).'</a></td>
 										<td class="text-center" style="font-size: 12px;">'.$mbtShow.'</td>
 										<td class="text-center" style="font-size: 12px;">$'.htmlentities($price).'</td>
 										<td class="text-center" style="font-size: 12px;">'.htmlentities($length).' '.htmlentities($unit).'</td>

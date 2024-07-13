@@ -11,7 +11,7 @@ $(function() {
     "use strict";
      var url = window.location + "";
         var path = url.replace(window.location.protocol + "//" + window.location.host + "/", "");
-        var element = $('ul#sidebarnav a').filter(function() {
+        var element = $('ulsidebarnav a').filter(function() {
             return this.href === url || this.href === path;// || url.href.indexOf(this.href) === 0;
         });
         element.parentsUntil(".sidebar-nav").each(function (index)
@@ -19,7 +19,7 @@ $(function() {
             if($(this).is("li") && $(this).children("a").length !== 0)
             {
                 $(this).children("a").addClass("active");
-                $(this).parent("ul#sidebarnav").length === 0
+                $(this).parent("ulsidebarnav").length === 0
                     ? $(this).addClass("active")
                     : $(this).addClass("selected");
             }
@@ -35,7 +35,7 @@ $(function() {
         });
 
     element.addClass("active"); 
-    $('#sidebarnav a').on('click', function (e) {
+    $('sidebarnav a').on('click', function (e) {
         
             if (!$(this).hasClass("active")) {
                 // hide any open menus and remove all other classes
@@ -53,7 +53,7 @@ $(function() {
                 $(this).next("ul").removeClass("in");
             }
     })
-    $('#sidebarnav >li >a.has-arrow').on('click', function (e) {
+    $('sidebarnav >li >a.has-arrow').on('click', function (e) {
         e.preventDefault();
     });
     

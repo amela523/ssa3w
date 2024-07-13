@@ -125,7 +125,7 @@ header("X-XSS-Protection: 1; mode=block");
 			}
 				
 			function doReply() {
-				var reply=$('#reply').val();
+				var reply=$('reply').val();
 				document.getElementById("image").style.display="inline"; 
 				document.getElementById("div").style.display="none"; 
 				var xmlhttp;

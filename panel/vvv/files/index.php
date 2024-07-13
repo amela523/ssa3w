@@ -30,8 +30,8 @@ header("X-XSS-Protection: 1; mode=block");
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- App favicon -->
 	<link rel="manifest" href="/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="msapplication-TileColor" content="da532c">
+	<meta name="theme-color" content="ffffff">
 	<!-- third party css -->
 	<link href="assets/libs/datatables/dataTables.bootstrap4.css" rel="stylesheet" type="text/css">
 	<link href="assets/libs/datatables/responsive.bootstrap4.css" rel="stylesheet" type="text/css">
@@ -102,7 +102,7 @@ type="text/css">.shoppy-wrapper {
 }
 
 .shoppy-close:after, .shoppy-close:before {
-    background: #fff;
+    background: fff;
     content: '';
     display: block;
     left: 50%;
@@ -125,7 +125,7 @@ type="text/css">.shoppy-wrapper {
     transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     transform-origin: center center
 }</style>
-<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=99000000, endColorstr=99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=99000000, endColorstr=99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=99000000, endColorstr=99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=99000000, endColorstr=99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
 <body class="center-menu">
 	<!-- Navigation Bar-->
 	<nav class="navbar-expand-lg navbar-dark active" id="topnav">
@@ -180,7 +180,7 @@ type="text/css">.shoppy-wrapper {
 
 					<div class="clearfix"></div>
 				</div>
-				<!-- end #navigation -->
+				<!-- end navigation -->
 			</div>
 			<!-- end container -->
 		

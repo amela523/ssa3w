@@ -264,7 +264,7 @@ if(!empty($_GET["key"]))
                 			}
                 
                             
-                            #die(errorJson($method));
+                            die(errorJson($method));
                 			if ($countMethod == 0) {
                     			$SQL = $odb->prepare("SELECT COUNT(*) FROM `methods` WHERE `fullname` = :method");
                     			$SQL -> execute(array(':method' => $method));
@@ -302,7 +302,7 @@ if(!empty($_GET["key"]))
                 				//if (filter_var($host, FILTER_VALIDATE_URL) === FALSE) {
                 				//	die(errorJson('Host is not a valid URL'));
                 				//}
-                				//$host = preg_replace('#^https?://#', '', $host);
+                				//$host = preg_replace('^https?://', '', $host);
                 				
                 
                 				$parameters = array("gov", "edu", "$", "{", "%", "<");

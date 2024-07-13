@@ -20,13 +20,13 @@ header("X-XSS-Protection: 1; mode=block");
 
 					<div class="row">
                         <div class="col-sm-5 col-lg-3">
-							<button class="btn btn-block btn-primary visible-xs push" data-toggle="collapse" data-target="#inbox-nav" type="button">Navigation</button>
+							<button class="btn btn-block btn-primary visible-xs push" data-toggle="collapse" data-target="inbox-nav" type="button">Navigation</button>
                             <div class="collapse navbar-collapse remove-padding" id="inbox-nav">
                                 <div class="block">
                                     <div class="block-header bg-primary">
                                         <ul class="block-options">
                                             <li>
-                                                <button style="color: white;" data-toggle="modal" data-target="#ticket" type="button"><i class="fa fa-pencil"></i> New Message</button>
+                                                <button style="color: white;" data-toggle="modal" data-target="ticket" type="button"><i class="fa fa-pencil"></i> New Message</button>
                                             </li>
                                         </ul>
                                         <h3 class="block-title">Inbox</h3>
@@ -34,12 +34,12 @@ header("X-XSS-Protection: 1; mode=block");
                                     <div class="block-content">
                                         <ul class="nav nav-pills nav-stacked push">
                                             <li>
-                                                <a href="#" onclick="inbox()">
+                                                <a href="" onclick="inbox()">
                                                     <i class="fa fa-fw fa-inbox push-5-r"></i>Inbox
                                                 </a>
                                             </li>
                                             <li class="active">
-                                                <a href="#" onclick="unread()">
+                                                <a href="" onclick="unread()">
                                                     <i class="fa fa-fw fa-star push-5-r"></i>Unread
 												</a>
                                             </li>    

@@ -3,7 +3,7 @@
 @font-face {
     font-family: "Material Design Icons";
     src: url(../fonts/materialdesignicons-webfontbd7d.eot?v=3.6.95);
-    src: url(../fonts/materialdesignicons-webfontd41d.eot?#iefix&v=3.6.95) format("embedded-opentype"), url(../fonts/materialdesignicons-webfontbd7d.woff2?v=3.6.95) format("woff2"), url(../fonts/materialdesignicons-webfontbd7d.woff?v=3.6.95) format("woff"), url(../fonts/materialdesignicons-webfontbd7d.ttf?v=3.6.95) format("truetype"), url(../fonts/materialdesignicons-webfontbd7d.svg?v=3.6.95#materialdesigniconsregular) format("svg");
+    src: url(../fonts/materialdesignicons-webfontd41d.eot?iefix&v=3.6.95) format("embedded-opentype"), url(../fonts/materialdesignicons-webfontbd7d.woff2?v=3.6.95) format("woff2"), url(../fonts/materialdesignicons-webfontbd7d.woff?v=3.6.95) format("woff"), url(../fonts/materialdesignicons-webfontbd7d.ttf?v=3.6.95) format("truetype"), url(../fonts/materialdesignicons-webfontbd7d.svg?v=3.6.95materialdesigniconsregular) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -14833,7 +14833,7 @@
 }
 
 .mdi-light:before {
-    color: #fff
+    color: fff
 }
 
 .mdi-light.mdi-inactive:before {
@@ -14923,7 +14923,7 @@
 @font-face {
     font-family: feather;
     src: url(../fonts/feathere8ab.eot?t=1525787366991);
-    src: url(../fonts/feathere8ab.eot?t=1525787366991#iefix) format("embedded-opentype"), url(../fonts/feathere8ab.woff?t=1525787366991) format("woff"), url(../fonts/feathere8ab.ttf?t=1525787366991) format("truetype"), url(../fonts/feathere8ab.svg?t=1525787366991#feather) format("svg")
+    src: url(../fonts/feathere8ab.eot?t=1525787366991iefix) format("embedded-opentype"), url(../fonts/feathere8ab.woff?t=1525787366991) format("woff"), url(../fonts/feathere8ab.ttf?t=1525787366991) format("truetype"), url(../fonts/feathere8ab.svg?t=1525787366991feather) format("svg")
 }
 
 [class^=fe-] {
@@ -16029,7 +16029,7 @@
 @font-face {
     font-family: themify;
     src: url(../fonts/themify9f24.eot?-fvbane);
-    src: url(../fonts/themifyd41d.eot?#iefix-fvbane) format("embedded-opentype"), url(../fonts/themify9f24.woff?-fvbane) format("woff"), url(../fonts/themify9f24.ttf?-fvbane) format("truetype"), url(../fonts/themify9f24.svg?-fvbane#themify) format("svg");
+    src: url(../fonts/themifyd41d.eot?iefix-fvbane) format("embedded-opentype"), url(../fonts/themify9f24.woff?-fvbane) format("woff"), url(../fonts/themify9f24.ttf?-fvbane) format("truetype"), url(../fonts/themify9f24.svg?-fvbanethemify) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -17547,7 +17547,7 @@
 }
 
 .fa-border {
-    border: solid .08em #eee;
+    border: solid .08em eee;
     border-radius: .1em;
     padding: .2em .25em .15em
 }
@@ -17677,7 +17677,7 @@
 }
 
 .fa-inverse {
-    color: #fff
+    color: fff
 }
 
 .fa-500px:before {
@@ -23107,7 +23107,7 @@
     font-weight: 400;
     font-display: auto;
     src: url(../fonts/fa-brands-400.eot);
-    src: url(../fonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff"), url(../fonts/fa-brands-400.ttf) format("truetype"), url(../fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-brands-400d41d.eot?iefix) format("embedded-opentype"), url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.woff) format("woff"), url(../fonts/fa-brands-400.ttf) format("truetype"), url(../fonts/fa-brands-400.svgfontawesome) format("svg")
 }
 
 .fab {
@@ -23120,7 +23120,7 @@
     font-weight: 400;
     font-display: auto;
     src: url(../fonts/fa-regular-400.eot);
-    src: url(../fonts/fa-regular-400d41d.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff"), url(../fonts/fa-regular-400.ttf) format("truetype"), url(../fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-regular-400d41d.eot?iefix) format("embedded-opentype"), url(../fonts/fa-regular-400.woff2) format("woff2"), url(../fonts/fa-regular-400.woff) format("woff"), url(../fonts/fa-regular-400.ttf) format("truetype"), url(../fonts/fa-regular-400.svgfontawesome) format("svg")
 }
 
 .far {
@@ -23134,7 +23134,7 @@
     font-weight: 900;
     font-display: auto;
     src: url(../fonts/fa-solid-900.eot);
-    src: url(../fonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff"), url(../fonts/fa-solid-900.ttf) format("truetype"), url(../fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(../fonts/fa-solid-900d41d.eot?iefix) format("embedded-opentype"), url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.woff) format("woff"), url(../fonts/fa-solid-900.ttf) format("truetype"), url(../fonts/fa-solid-900.svgfontawesome) format("svg")
 }
 
 .fa,
@@ -23146,7 +23146,7 @@
 @font-face {
     font-family: remixicon;
     src: url(../fonts/remixicon.eot?t=1551008796529);
-    src: url(../fonts/remixicon.eot?t=1551008796529#iefix) format("embedded-opentype"), url(../fonts/remixicon.woff2?t=1551008796529) format("woff2"), url(../fonts/remixicon.woff?t=1551008796529) format("woff"), url(../fonts/remixicon.ttf?t=1551008796529) format("truetype"), url(../fonts/remixicon.svg?t=1551008796529#remixicon) format("svg")
+    src: url(../fonts/remixicon.eot?t=1551008796529iefix) format("embedded-opentype"), url(../fonts/remixicon.woff2?t=1551008796529) format("woff2"), url(../fonts/remixicon.woff?t=1551008796529) format("woff"), url(../fonts/remixicon.ttf?t=1551008796529) format("truetype"), url(../fonts/remixicon.svg?t=1551008796529remixicon) format("svg")
 }
 
 [class*=" remixicon-"],
@@ -28510,7 +28510,7 @@
 @font-face {
     font-family: weathericons;
     src: url(../fonts/weathericons-regular-webfont.eot);
-    src: url(../fonts/weathericons-regular-webfontd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/weathericons-regular-webfont.woff2) format("woff2"), url(../fonts/weathericons-regular-webfont.woff) format("woff"), url(../fonts/weathericons-regular-webfont.ttf) format("truetype"), url(../fonts/weathericons-regular-webfont.svg#weather_iconsregular) format("svg");
+    src: url(../fonts/weathericons-regular-webfontd41d.eot?iefix) format("embedded-opentype"), url(../fonts/weathericons-regular-webfont.woff2) format("woff2"), url(../fonts/weathericons-regular-webfont.woff) format("woff"), url(../fonts/weathericons-regular-webfont.ttf) format("truetype"), url(../fonts/weathericons-regular-webfont.svgweather_iconsregular) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -30837,4 +30837,4 @@
     content: ""
 }
 
-/*# sourceMappingURL=icons.min.css.map */
+/* sourceMappingURL=icons.min.css.map */
